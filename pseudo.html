@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo Box</title>
+    <style>
+        .middle:focus{
+            color: greenyellow;
+            font-weight: 700;
+        }
+        
+        h1:hover{
+            display: inline;
+            color: blue;
+            background-color: greenyellow;
+            font-size: 50px;
+            font-weight: 700;
+        }
+        li:last-child{
+                color: blue;
+            }
+            li:first-child{
+                color: green;
+            }
+            li:nth-child(2n){
+                background-color: red;
+            }
+            h3::before{
+                content: 'hello ' ;
+            }
+            h3::after{
+                content: ' end';
+                font-size: 20px;
+                background-color: aqua;
+            }
+                
+
+            
+    </style>
+</head>
+<body>
+    <h1>My name is Masud.</h1>
+    <br>
+    <input type="email">
+    <input class="middle" type="email">
+    <input type="email">
+    <br>
+    <a href="https://www.google.com/">google e jao</a>
+    <a href="https://github.com/MasudBhuiya/pseudo-box">MasudBhuiya</a>
+    <br>
+   <h3>middle child -1</h3>
+   <h3>middle child -2</h3>
+   <h3>middle child -3</h3>
+   <h3>middle child -4</h3>
+   <h3>middle child -5</h3>
+   <h3>middle child -6</h3>
+    <ul>
+        <li>masud</li>
+        <li>emon</li>
+        <li>alif</li>
+        <li>fahim</li>
+        <li>sajib</li>
+        <li>habibur</li>
+    </ul>
+</body>
+</html>
